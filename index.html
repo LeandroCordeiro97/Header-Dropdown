@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>DropDown</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="nav-links">
+                <li class="navLink" data-menu="menu1">Home</li>
+                <li class="navLink" data-menu="menu2">Services</li>
+                <li class="navLink" data-menu="menu3">About</li>
+                <li class="navLink" data-menu="menu4">Contact</li>
+        </ul>
+    </nav>
+    <div class="dropdown-menu">
+        <div class="menu-content" id="menu1">
+            <ul>
+                <li>Welcome</li>
+                <li>Latest News</li>
+                <li>Events</li>
+                <li class="submenu">More <ul class="submenu-content">
+                    <li>Sub item 1</li>
+                    <li>Sub item 2</li>
+                </ul></li>
+            </ul>
+        </div>
+        <div class="menu-content" id="menu2">
+            <ul>
+                <li>Conulting</li>
+                <li>Development</li>
+                <li>Design</li>
+                <li>Markting</li>
+            </ul>
+        </div>
+        <div class="menu-content" id="menu3">
+            <ul>
+                <li>Our Story</li>
+                <li>Team</li>
+                <li>Careers</li>
+            </ul>
+        </div>
+        <div class="menu-content" id="menu4">
+            <ul>
+                <li>Email Us</li>
+                <li>Locations</li>
+                <li>Support</li>
+                <li>FQA</li>
+            </ul>
+        </div>
+    </div>
+    </header>
+    <script src="/script.js"></script>
+    
+</body>
+</html>
